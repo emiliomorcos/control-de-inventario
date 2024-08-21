@@ -3,6 +3,7 @@ from Inventory import Inventory
 
 inventory = Inventory()
 inventory.add_ingredient("Sugar", 10, "kg", 5)
+inventory.add_ingredient("Flour", 15, "kg", 5)
 
 x = True
 print("Welcome to the inventory system")
